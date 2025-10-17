@@ -7,8 +7,8 @@ import "swiper/css/navigation";
 const Hero = () => {
   const features = [
     { url: "/images/banner-01.jpg", urlMobile: "/images/mobile-banner.jpg" },
-    { url: "/images/banner-02.jpg", urlMobile: "/images/mobile-banner2.jpg" },
-    { url: "/images/banner-03.jpg", urlMobile: "/images/mobile-banner3.jpg" },
+    { url: "/images/banner-01.jpg", urlMobile: "/images/mobile-banner.jpg" },
+    { url: "/images/banner-01.jpg", urlMobile: "/images/mobile-banner.jpg" },
   ];
 
   // ✅ Detect screen size
