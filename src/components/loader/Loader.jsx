@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import LoaderContext from "../context/Loader/LoaderContext";
+import LoaderContext from "../../context/Loader/LoaderContext";
 
 const Loader = () => {
   const { mounted } = useContext(LoaderContext);
@@ -7,7 +7,7 @@ const Loader = () => {
   return (
     <div className={`loader-wrapper ${!mounted ? "active" : ""}`}>
       <div className="loader">
-        <img src="/images/logo.png" alt="" />
+        <img src="/images/why-choose-char.png" alt="" />
       </div>
     </div>
   );

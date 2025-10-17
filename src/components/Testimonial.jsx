@@ -89,7 +89,7 @@ const Testimonial = () => {
                 <div
                   className="testimonial-card"
                   data-aos="fade-up"
-                  data-aos-delay={100 * index + 600}
+                  data-aos-delay={100 * index + 400}
                 >
                   <span className="icon-box">
                     <img src="/images/rating-icon.png" alt="" />

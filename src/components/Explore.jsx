@@ -68,7 +68,7 @@ const Explore = () => {
               className="explore-card"
               key={index}
               data-aos="fade-up"
-              data-aos-delay={100 * index + 600}
+              data-aos-delay={100 * index + 250}
             >
               <div className="card-img-box">
                 <img src={item.image} alt={item.title} />

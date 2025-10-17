@@ -8,11 +8,14 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./index.css";
 import App from "./App.jsx";
+import LoaderProvider from "./context/Loader/LoaderProvider.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
-      <App />
+      <LoaderProvider>
+        <App />
+      </LoaderProvider>
     </BrowserRouter>
   </StrictMode>
 );

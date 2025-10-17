@@ -1912,7 +1912,7 @@ ul.footer-social-media li svg {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 9999;
+  z-index: 999999;
   transform-origin: top;
   animation-fill-mode: forwards;
   opacity: 0;
@@ -1931,7 +1931,7 @@ ul.footer-social-media li svg {
 }
 
 .loader>img {
-  max-width: 90px;
+  max-width: 100px;
   display: block;
   object-fit: cover;
   animation: move 3s linear infinite;
@@ -1948,5 +1948,11 @@ ul.footer-social-media li svg {
 
   100% {
     transform: scale(0.9);
+  }
+}
+
+@media(max-width:767px) {
+  .loader>img {
+    max-width: 80px;
   }
 }
