@@ -76,6 +76,7 @@ const WhyKivano = () => {
                 </div>
               ))}
             </div>
+            {/* for mobile start*/}
             <div className="why-card-wrapper d-flex d-sm-none">
               {data.map((item, index) => (
                 <div
@@ -101,6 +102,7 @@ const WhyKivano = () => {
                 </div>
               ))}
             </div>
+            {/* for mobile end  */}
           </div>
           <div className="col-lg-4 col-sm-12 col-5 order-lg-1  order-0 ">
             <div
