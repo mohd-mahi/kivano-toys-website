@@ -693,6 +693,7 @@ button.hamburger-menu {
 
 .category-img:hover {
   background-color: #fff !important;
+  transform: scale(1.1);
 }
 
 .category-img:hover span.icon-img {
@@ -1252,14 +1253,67 @@ span.icon-img {
 
   .why-choose-kivano::before {
     width: 100%;
-    height: calc(50% - 140px);
+    height: 50%;
   }
 
   .why-choose-kivano::after {
     width: 100%;
-    height: calc(50% + 140px);
+    height: 50%;
     top: auto;
     bottom: 0;
+  }
+
+  .why-card:nth-child(1) .img-box .why-icon {
+    background-color: #FFC300;
+  }
+
+  .why-card:nth-child(2) .img-box .why-icon {
+    background-color: #FFC300;
+  }
+
+  .why-card:nth-child(3) .img-box .why-icon {
+    background-color: #FFC300;
+  }
+
+  .why-card:nth-child(4) .img-box .why-icon {
+    background-color: #00B4D7;
+  }
+
+  .why-card:nth-child(5) .img-box .why-icon {
+    background-color: #00B4D7;
+  }
+
+  .why-card:nth-child(6) .img-box .why-icon {
+    background-color: #00B4D7;
+  }
+
+  .content-box p {
+    display: none;
+  }
+
+  .why-choose-kivano.padding-section.less {
+    padding-block: 20px 60px;
+  }
+
+  .why-card-wrapper {
+    position: relative;
+  }
+
+  .why-card {
+    width: calc(100% + 20px);
+    align-items: center;
+  }
+
+  .why-middle-img {
+    margin-bottom: 0;
+  }
+
+  .why-middle-img img {
+    min-width: 180px;
+  }
+
+  .content-box h6 {
+    font-size: 0.875rem;
   }
 }
 

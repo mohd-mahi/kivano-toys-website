@@ -50,8 +50,8 @@ const WhyKivano = () => {
       <div className="container">
         <Heading mainTitle="Why Choose Kivano?" />
         <div className="row align-items-center">
-          <div className="col-lg-4 col-sm-6 why-left order-lg-0  order-1">
-            <div className="why-card-wrapper">
+          <div className="col-lg-4 col-sm-6 col-7 why-left order-lg-0  order-1">
+            <div className="why-card-wrapper d-none d-sm-block">
               {data.slice(0, 3).map((item, index) => (
                 <div
                   className="why-card"
@@ -76,8 +76,33 @@ const WhyKivano = () => {
                 </div>
               ))}
             </div>
+            <div className="why-card-wrapper d-block d-sm-none">
+              {data.map((item, index) => (
+                <div
+                  className="why-card"
+                  key={index}
+                  data-aos="fade-left"
+                  data-aos-delay={100 * index + 600}
+                >
+                  <div className="img-box">
+                    {/* <img src={item.url} alt={item.title} /> */}
+                    <span
+                      className="why-icon"
+                      style={{
+                        WebkitMaskImage: `url(${item.url})`,
+                        maskImage: `url(${item.url})`,
+                      }}
+                    ></span>
+                  </div>
+                  <div className="content-box">
+                    <h6>{item.title}</h6>
+                    <p>{item.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="col-lg-4 col-12 order-lg-1  order-0">
+          <div className="col-lg-4 col-sm-12 col-5 order-lg-1  order-0 ">
             <div
               className="why-middle-img"
               data-aos="fade-up"
@@ -86,7 +111,7 @@ const WhyKivano = () => {
               <img src="/images/why-choose-char.png" alt="image" />
             </div>
           </div>
-          <div className="col-lg-4 col-sm-6 why-right order-2 order-lg-2   ">
+          <div className="col-lg-4 col-sm-6 why-right order-2 order-lg-2 d-sm-flex d-none">
             <div className="why-card-wrapper">
               {data.slice(3, 6).map((item, index) => (
                 <div
@@ -113,7 +138,7 @@ const WhyKivano = () => {
               ))}
             </div>
           </div>
-          <div className="col-12 d-none ">
+          {/* <div className="col-12 d-none ">
             <Swiper
               pagination={true}
               modules={[Pagination]}
@@ -124,7 +149,7 @@ const WhyKivano = () => {
                   {" "}
                   <div className="why-card">
                     <div className="img-box">
-                      {/* <img src={item.url} alt={item.title} /> */}
+                    
                       <span
                         className="why-icon"
                         style={{
@@ -141,7 +166,7 @@ const WhyKivano = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
