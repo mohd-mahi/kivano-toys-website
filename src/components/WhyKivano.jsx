@@ -51,7 +51,7 @@ const WhyKivano = () => {
         <Heading mainTitle="Why Choose Kivano?" />
         <div className="row align-items-center">
           <div className="col-lg-4 col-sm-6 col-7 why-left order-lg-0  order-1">
-            <div className="why-card-wrapper d-none d-sm-block">
+            <div className="why-card-wrapper d-none d-sm-flex">
               {data.slice(0, 3).map((item, index) => (
                 <div
                   className="why-card"
@@ -76,7 +76,7 @@ const WhyKivano = () => {
                 </div>
               ))}
             </div>
-            <div className="why-card-wrapper d-block d-sm-none">
+            <div className="why-card-wrapper d-flex d-sm-none">
               {data.map((item, index) => (
                 <div
                   className="why-card"
