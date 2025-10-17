@@ -50,7 +50,7 @@ const OurStory = () => {
                   data-aos-delay="250"
                 >
                   {data.map((item, index) => (
-                    <div className="col-sm-6 col-lg-6 col-md-4" key={index}>
+                    <div className="col-6 col-lg-6 col-md-4" key={index}>
                       <div className="story-card">
                         <h6>
                           {item.value} <span>+</span>

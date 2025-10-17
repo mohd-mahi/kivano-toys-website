@@ -28,7 +28,7 @@ const WhatsNextCTA = () => {
                         </li>
                       </ul>
                     </div>
-                    {/* <div className="next-first d-sm-none d-flex">
+                    <div className="next-first d-sm-none d-flex">
                       <h2>Looking for Help ?</h2>
                       <ul>
                         <li>
@@ -47,11 +47,11 @@ const WhatsNextCTA = () => {
                           </a>
                         </li>
                       </ul>
-                    </div> */}
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6">
+              <div className="col-sm-6 d-sm-flex d-none">
                 <div className="whats-next-right-content">
                   <h2>looking for help ?</h2>
                   <ul>
