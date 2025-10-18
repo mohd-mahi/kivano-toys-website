@@ -24,7 +24,7 @@ const OurStory = () => {
                 alt=""
                 className="bottom-img"
                 data-aos="fade-up"
-                data-aos-delay="400"
+                data-aos-delay="450"
               />
             </div>
           </div>
