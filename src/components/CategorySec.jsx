@@ -116,7 +116,7 @@ const CategorySec = () => {
                   <div
                     className="category-card"
                     data-aos="fade-up"
-                    data-aos-delay={100 * index + 600}
+                    data-aos-delay={100 * index + 300}
                   >
                     <div
                       className={`category-img ${category.cl}`}
