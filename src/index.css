@@ -1078,6 +1078,7 @@ span.icon-img {
 
 .why-choose-kivano {
   width: 100%;
+  background-color: #00B4D7;
   position: relative;
 
 }
@@ -1090,10 +1091,9 @@ span.icon-img {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
 }
 
-.why-choose-kivano::after {
+/* .why-choose-kivano::after {
   content: "";
   width: 50%;
   height: 100%;
@@ -1102,7 +1102,7 @@ span.icon-img {
   top: 0;
   right: 0;
   z-index: -1;
-}
+} */
 
 .why-card-wrapper {
   width: 100%;
@@ -1201,7 +1201,9 @@ span.icon-img {
 }
 
 @media(max-width:992px) {
-
+  .why-choose-kivano.padding-section.less {
+    padding-bottom: 20px;
+  }
 
   .why-left .why-card:nth-child(1) {
     left: 20px;

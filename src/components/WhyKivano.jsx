@@ -57,7 +57,7 @@ const WhyKivano = () => {
                   className="why-card"
                   key={index}
                   data-aos="fade-left"
-                  data-aos-delay={100 * index + 400}
+                  data-aos-delay={100 * index + 300}
                 >
                   <div className="img-box">
                     {/* <img src={item.url} alt={item.title} /> */}
