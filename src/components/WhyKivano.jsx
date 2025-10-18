@@ -49,7 +49,7 @@ const WhyKivano = () => {
     <section className="why-choose-kivano padding-section less ">
       <div className="container">
         <Heading mainTitle="Why Choose Kivano?" />
-        <div className="row align-items-center">
+        <div className="row align-items-center z-10">
           <div className="col-lg-4 col-sm-6 col-7 why-left order-lg-0  order-1">
             <div className="why-card-wrapper d-none d-sm-flex">
               {data.slice(0, 3).map((item, index) => (

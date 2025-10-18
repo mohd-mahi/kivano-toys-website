@@ -48,6 +48,30 @@ html.lenis body {
   pointer-events: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: inherit;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 24px;
+  font-size: 0.95rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
 .container {
   max-width: 1380px;
   width: 100%;

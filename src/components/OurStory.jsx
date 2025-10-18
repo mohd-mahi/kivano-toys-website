@@ -14,7 +14,7 @@ const OurStory = () => {
             <div
               className="story-image-container"
               data-aos="fade-up"
-              data-aos-delay="200"
+              data-aos-delay="300"
             >
               <div className="story-img">
                 <img src="/images/hm-about-img.jpg" alt="story-img" />
@@ -33,25 +33,25 @@ const OurStory = () => {
               <h2
                 className="main-title"
                 data-aos="fade-up"
-                data-aos-delay="200"
+                data-aos-delay="300"
               >
                 {" "}
                 A little about us.
               </h2>
-              <p data-aos="fade-up" data-aos-delay="350">
+              <p data-aos="fade-up" data-aos-delay="400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
                 ipsum suspendisse ultrices gravida. Risus commodo viverra
                 maecenas accumsan lacus vel facilisis.
               </p>
-              <a href="#" data-aos="fade-up" data-aos-delay="400">
+              <a href="#" data-aos="fade-up" data-aos-delay="450">
                 Keep Reading
               </a>
               <div className="stat-block-container">
                 <div
                   className="row gy-5"
                   data-aos="fade-up"
-                  data-aos-delay="450"
+                  data-aos-delay="500"
                 >
                   {data.map((item, index) => (
                     <div className="col-6 col-lg-6 col-md-4" key={index}>
